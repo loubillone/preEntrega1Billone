@@ -34,16 +34,16 @@ if (vehiculo === "GOL TRENDLINE") {
 }
 
 function totalCuotasGol() {
-  precioGolCuotas = precioGol / cuotas;
+  let precioGolCuotas = precioGol / cuotas;
   return parseInt(precioGolCuotas);
 }
 
 function totalCuotasPolo() {
-  precioPoloCuotas = precioPolo / cuotas;
+  let precioPoloCuotas = precioPolo / cuotas;
   return parseInt(precioPoloCuotas);
 }
 
 function totalCuotasAmarok() {
-  precioAmarokCuotas = precioAmarok / cuotas;
+  let precioAmarokCuotas = precioAmarok / cuotas;
   return parseInt(precioAmarokCuotas);
 }
